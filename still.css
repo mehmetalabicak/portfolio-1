@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: black;
+}
+
+
+.baslık{
+    margin: 80px 60px 20px 60px;
+    color: azure;
+    font-familyfont-family: 'Bruno Ace SC', cursive;
+   
+}
+
+
+.top-nav a{
+    text-decoration: none;
+    background-color: rgb(159, 65, 73);
+    border-radius: 7px;
+    padding: 10px;
+    width: 100px;
+    display:inline-block;
+    margin: 20px;
+    color: aliceblue;
+      
+}
+
+.top-nav a:hover{
+   background-color:gray;
+  /* opacity: 0.5; */
+  color: rgb(53, 10, 162);
+}
+.text{
+    color: aliceblue;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+h2{
+    font-size: 60px;
+    color: cyan;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.images{
+    border: 10px solid rgb(193, 121, 121);
+    border-radius: 20px;
+    width: 280px;
+    height: 300px;
+    margin: 5px;
+   
+}
+
+.images:hover{
+    background-color: rgb(147, 145, 145);
+    opacity: 0.5;
+}
+
+h3{
+    
+    text-decoration: underline;
+    color: chartreuse;
+    margin-top: 75px;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.social-bar{
+    /* color: rgb(4, 200, 7); */
+    font-size: 20px;
+    margin-top: 40px;
+
+}
+#sosyal .social-bar a{
+    margin: 20px;
+    color: rgb(8, 209, 206);
+    opacity: 0.5;
+}
+
+.social-bar a:hover{
+    background-color: rgb(184, 2, 2);
+    opacity: 0.5;
+}
+
+
+
+.Send{
+    margin-top: 30px;
+    color: rgb(154, 184, 174);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+    
+
+/*? fourth-sec (Form) zone */
+footer.footer {
+    text-align: center;
+  }
+ 
+  
+  footer.footer form div.common input {
+    margin-top: 10px ;
+    line-height: 42px;
+  }
+  footer.footer form div.common input,
+  textarea,
+  button {
+    width: 951px;
+    border-radius: 5px;
+    border: 1px solid beige;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 35px;
+  }
+  ::placeholder {
+    font-size: 30px;
+    color: whitesmoke;
+  }
+  footer.footer form div.send input {
+    background-color: antiquewhite;
+  }
+  button.button {
+    color: white;
+    font-family: "Sigmar", cursive;
+    padding: 5px;
+    background-color: #D2B48C;
+  }
+  button.button i {
+    display: none;
+  }
+  button.button:hover i,
+  button.button:hover {
+    display: inline-block;
+    color: orange;
+    cursor: pointer;
+    padding: 10px;
+    transition: color 0.2s ease-in-out;
+  }
+  div.last-div {
+    text-align: right;
+  }
+  a.top {
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    padding: 10px;
+    background-color: #D2B48C;
+    color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 5px 5px 0px;
+    margin: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 30px;
+  }
